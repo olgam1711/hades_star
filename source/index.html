@@ -15,82 +15,76 @@
     <div class="container">
       <header class="header">
 
-        <div class="header__rus header__item">
+        <div class="header__item header__item--rus">
           <span class="visually-hidden">russian</span>
           <a href="#">
-            <img src="#" alt="">
+            <img src="img/rus.png" width="75" height="75" alt="русский язык">
           </a>
         </div>
 
-        <div class="header__eng header__item">
+        <div class="header__item header__item--eng">
           <span class="visually-hidden">english</span>
           <a href="#">
-            <img src="#" alt="">
+            <img src="img/eng.jpg" width="125" height="75" alt="английский язык">
           </a>
         </div>
 
-        <div class="header__text header__item">
+        <div class="header__item header__item--text">
           <p>Справочник</p>
         </div>
 
-        <div class="header__links header__item">
+        <div class="header__item header__item--links">
           <a href="#">
             <i>GuideHS</i>
           </a>
 
-          <img src="googleplay.jpg" height="47" width="95" alt="">
+          <img src="#" height="47" width="95" alt="">
         </div>
       </header>
 
       <main class="main">
-        <img class="main__name" src="hadeslogo_glow.png" height="157" width="298" alt="">
+        <img class="main__name" src="img/hades_logo.png" height="157" width="298" alt="логотип сайта">
 
-        <table class="main__table table">
+        <div class="main__table">
 
-          <tr class="table__tr table__th">
-            <th>Разделы</th>
-            <th>Модули</th>
-          </tr>
+          <section class="main__section section section--one">
 
-          <tr class="table__tr table__td">
-            <td>Постройки</td>
-            <td>Добыча</td>
-          </tr>
+            <h3 class="section__name">Разделы</h3>
 
-          <tr class="table__tr table__td">
-            <td>Планета</td>
-            <td>Торговля</td>
-          </tr>
+            <ul class="section__list list">
+              <li class="list__item">Постройки</li>
+              <li class="list__item">Планета</li>
+              <li class="list__item">Артефакты</li>
+              <li class="list__item">Cerberus</li>
+              <li class="list__item">Корабли</li>
+              <li class="list__item">Звёзды</li>
+            </ul>
+          </section>
 
-          <tr class="table__tr table__td">
-            <td>Артефакты</td>
-            <td>Вооружение</td>
-          </tr>
+          <section class="main__section section">
 
-          <tr class="table__tr table__td">
-            <td>Cerberus</td>
-            <td>Щиты</td>
-          </tr>
+            <h3 class="section__name">Модули</h3>
 
-          <tr class="table__tr table__td">
-            <td>Корабли</td>
-            <td>Поддержка</td>
-          </tr>
+            <ul class="section__list list">
+              <li class="list__item">Добыча</li>
+              <li class="list__item">Торговля</li>
+              <li class="list__item">Вооружение</li>
+              <li class="list__item">Щиты</li>
+              <li class="list__item">Поддержка</li>
+              <li class="list__item">Дополнительно</li>
+            </ul>
+          </section>
+        </div>
 
-          <tr class="table__tr table__td">
-            <td>Звезды</td>
-            <td>Дополнительно</td>
-          </tr>
+        <section class="main__section section section--links">
 
-          <tr class="table__tr table__td table__td--mod">
-            <td colspan="2">Модификация игры (модпак).</td>
-          </tr>
+          <h3 class="section__name">Ссылки</h3>
 
-          <tr class="table__tr table__td table__td--calc">
-            <td colspan="2">Калькулятор модулей (от Joxter).</td>
-          </tr>
-
-        </table>
+          <ul class="section__list list">
+            <li class="list__item list__item--mod">Модификация игры (модпак)</li>
+            <li class="list__item list__item--calc">Калькулятор модулей (от Joxter)</li>
+          </ul>
+        </section>
 
         <img class="main__discord" src="Discord_ru.png" height="57" width="228" alt="">
       </main>
