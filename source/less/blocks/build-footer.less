@@ -1,6 +1,29 @@
-.build-footer__text {
-  padding-left: 300px;
-  padding-right: 300px;
+.build-footer {
+  margin-top: 40px;
+}
 
+.build-footer__text {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  font-size: 15px;
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .build-footer__text {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .build-footer {
+    padding-bottom: 30px;
+  }
+
+  .build-footer__text {
+    padding-left: 300px;
+    padding-right: 300px;
+  }
 }
