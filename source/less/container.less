@@ -1,8 +1,23 @@
 .container {
-  max-width: 1200px;
+  width: 320px;
   margin: 0 auto;
 
   background-color: #000000;
+}
+
+.container--index {
   background-image: url("../img/fon.jpg");
   background-position: 0 0;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
 }

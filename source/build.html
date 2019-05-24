@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>GuideHS_web(ru)</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta content="ValeraVvV" name="author">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header class="extra-header">
+        <a href="../index.html">
+          <img class="extra-header__img" src="../img/i_postroiki.jpg" width="682" height="270" alt="">
+        </a>
+      </header>
+
+      <main class="main">
+        <h1 class="visually-hidden">Постройки</h1>
+
+        <section class="main__section section">
+          <h2 class="section__title">Сканер голубых звёзд</h2>
+          <img src="img/BS.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Ищет ближайшие голубые звезды (в таблицах синие звезды (СЗ)).
+          Сканер отправит линкор к обнаруженной голубой звезде. Системы голубых звезд крайне недолговечны; поскольку звезды постоянно коллапсируют, находиться рядом с ними небезопасно. Все прибывшие линкоры игроков будут вести огонь друг по другу и по силам «Цербера» в системе. Побеждает хозяин последнего уцелевшего линкора.
+          Можно переместить в другое место за 1000 водорода для каждого сектора. Минимальный уровень планеты для постройки сканера - 9. Стоимость - 20000, время постройки 3 сек.
+          В системе голубых звезд игроки сражаются с другими игроками или с ботами (зависит от активности в это время игроков).
+          </p>
+
+          <p class="section__text">Подробнее информацию о СЗ можно прочитать в разделе <a href="star.html">Звёзды</a>.</p>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Станция переправки грузов</h2>
+          <img src="../img/stantion.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Позволяет производить доставку грузов с планет или торговых станций из указанных секторов по номинальной стоимости в течении непродолжительного периода времени. Если в указанном секторе имеется несколько планет или планета со спутниками, то сначала производится доставка первой колонизированной планеты, затем спутника (ов) этой планеты. После этого производится доставка грузов со второй планеты.
+          Улучшите службу переправки, чтобы увеличить количество контролируемых секторов и объемы поставок.
+          Для активации переправки требуются фрагменты звезд и водород. Фрагменты можно получить за выполнение заданий в системах голубых звезд (СЗ).
+          Станцию можно переместить в другое место за 1000 водорода для каждого сектора. Минимальный уровень планеты для постройки станции - 10. Одна постройка для солнечной системы.
+          </p>
+
+          <div style="overflow-x: auto;">
+            <table class="section__table table">
+              <tr class="table__gray table__gray--dark">
+                <th>Уровень</th>
+                <th>Стоимость</th>
+                <th>Время постройки</th>
+                <th>Грузов в час</th>
+                <th>Длительность действия, ч</th>
+                <th>Итого грузов будет доставлено</th>
+                <th>Цена включения (фрагментов)</th>
+                <th>Цена включения (водород)</th>
+                <th>Максимально фрагментов, вместимость</th>
+                <th>Максимально секторов, обслуж.</th>
+              </tr>
+
+              <tr">
+                <td>1</td>
+                <td>10 000</td>
+                <td>4h</td>
+                <td>4</td>
+                <td>4</td>
+                <td>16</td>
+                <td>5</td>
+                <td>50</td>
+                <td>5</td>
+                <td>1</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td>25 000</td>
+                <td>1d</td>
+                <td>5</td>
+                <td>5</td>
+                <td>20</td>
+                <td>4</td>
+                <td>100</td>
+                <td>10</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>50 000</td>
+                <td>2d</td>
+                <td>7</td>
+                <td>6</td>
+                <td>42</td>
+                <td>4</td>
+                <td>250</td>
+                <td>15</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>4</td>
+                <td>100 000</td>
+                <td>3d</td>
+                <td>9</td>
+                <td>8</td>
+                <td>56</td>
+                <td>4</td>
+                <td>500</td>
+                <td>20</td>
+                <td>4</td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>200 000</td>
+                <td>4d</td>
+                <td>12</td>
+                <td>10</td>
+                <td>120</td>
+                <td>4</td>
+                <td>750</td>
+                <td>25</td>
+                <td>5</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>6</td>
+                <td>400 000</td>
+                <td>5d</td>
+                <td>16</td>
+                <td>12</td>
+                <td>192</td>
+                <td>4</td>
+                <td>1 000</td>
+                <td>30</td>
+                <td>6</td>
+              </tr>
+
+              <tr>
+                <td>7</td>
+                <td>600 000</td>
+                <td>6d</td>
+                <td>22</td>
+                <td>16</td>
+                <td>352</td>
+                <td>4</td>
+                <td>2 000</td>
+                <td>35</td>
+                <td>8</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>8</td>
+                <td>1 000 000</td>
+                <td>7d</td>
+                <td>30</td>
+                <td>17</td>
+                <td>510</td>
+                <td>3</td>
+                <td>3 000</td>
+                <td>40</td>
+                <td>11</td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td>4 000 000</td>
+                <td>8d</td>
+                <td>42</td>
+                <td>20</td>
+                <td>840</td>
+                <td>3</td>
+                <td>4 000</td>
+                <td>45</td>
+                <td>14</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>10</td>
+                <td>8 000 000</td>
+                <td>9d</td>
+                <td>60</td>
+                <td>24</td>
+                <td>1 440</td>
+                <td>3</td>
+                <td>5 000</td>
+                <td>50</td>
+                <td>18</td>
+              </tr>
+            </table>
+          </div>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Временной модулятор</h2>
+          <img src="../img/TimeModulator.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Высокотехнологичная станция, способная поглощать энергию желтой звезды и манипулировать временем. Используйте ее, чтобы ускорить течение времени вблизи своей желтой звезды. Улучшите ее, чтобы увеличить фактор ускорения. Максимальный возможный уровень -16. Минимальный уровень планеты для постройки модулятора - 6. Размещается только в секторе, где расположена звезда. Модулятор можно переместить на другое место в секторе за 1000 водорода.
+          </p>
+
+          <div style="overflow-x: auto;">
+            <table class="section__table table">
+              <tr class="table__gray table__gray--dark">
+                  <th>Уровень</th>
+                  <th>Фактор ускорения</th>
+                  <th>Стоимость улучшения</th>
+                  <th>Время улучшения</th>
+                  <th>Максимальная длительность, мин</th>
+                  <th>Перезарядка, ч</th>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>1,50</td>
+                  <td>1 000</td>
+                  <td>2h</td>
+                  <td rowspan="16">10</td>
+                  <td rowspan="16">12</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>2</td>
+                  <td>1,75</td>
+                  <td>4 000</td>
+                  <td>1d</td>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td>2,00</td>
+                  <td>10 000</td>
+                  <td>2d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>4</td>
+                  <td>2,25</td>
+                  <td>30 000</td>
+                  <td>3d</td>
+                </tr>
+
+                <tr>
+                  <td>5</td>
+                  <td>2,50</td>
+                  <td>100 000</td>
+                  <td>4d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>6</td>
+                  <td>2,75</td>
+                  <td>200 000</td>
+                  <td>5d</td>
+                </tr>
+
+                <tr>
+                  <td>7</td>
+                  <td>3,00</td>
+                  <td>400 000</td>
+                  <td>6d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>8</td>
+                  <td>3,25</td>
+                  <td>600 000</td>
+                  <td>7d</td>
+                </tr>
+
+                <tr>
+                  <td>9</td>
+                  <td>3,50</td>
+                  <td>800 000</td>
+                  <td>8d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>10</td>
+                  <td>3,75</td>
+                  <td>1 000 000</td>
+                  <td>9d</td>
+                </tr>
+
+                <tr>
+                  <td>11</td>
+                  <td>4,00</td>
+                  <td>2 000 000</td>
+                  <td>9d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>12</td>
+                  <td>4,25</td>
+                  <td>3 000 000</td>
+                  <td>9d</td>
+                </tr>
+
+                <tr>
+                  <td>13</td>
+                  <td>4,50</td>
+                  <td>4 000 000</td>
+                  <td>10d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>14</td>
+                  <td>5,00</td>
+                  <td>5 000 000</td>
+                  <td>10d</td>
+                </tr>
+
+                <tr>
+                  <td>15</td>
+                  <td>5,50</td>
+                  <td>6 000 000</td>
+                  <td>10d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>16</td>
+                  <td>6,00</td>
+                  <td>7 000 000</td>
+                  <td>10d</td>
+                </tr>
+            </table>
+          </div>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Верфь</h2>
+          <img src="../img/i_verv.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Верфь - это место, где производится строительство и усовершенствование кораблей. Уровень верфи игрока определяет общее максимальное количество единиц вашего флота. Максимально можно построить 15 кораблей. Верфь можно переместить в другое место  за 1000 водорода для каждого сектора.
+          </p>
+
+          <table class="section__table table">
+            <tr class="table__gray table__gray--dark">
+                  <th>Уровень</th>
+                  <th>Флот</th>
+                  <th>Стоимость улучшения</th>
+                  <th>Время улучшения</th>
+                </tr>
+
+                <tr>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>1 000</td>
+                  <td>Instant</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>2</td>
+                  <td>5</td>
+                  <td>2 500</td>
+                  <td>20s</td>
+                </tr>
+
+                <tr>
+                  <td>3</td>
+                  <td>7</td>
+                  <td>5 000</td>
+                  <td>30m</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>4</td>
+                  <td>8</td>
+                  <td>20 000</td>
+                  <td>1h</td>
+                </tr>
+
+                <tr>
+                  <td>5</td>
+                  <td>10</td>
+                  <td>80 000</td>
+                  <td>8h</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>6</td>
+                  <td>12</td>
+                  <td>200 000</td>
+                  <td>1d</td>
+                </tr>
+
+                <tr>
+                  <td>7</td>
+                  <td>13</td>
+                  <td>500 000</td>
+                  <td>2d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>8</td>
+                  <td>14</td>
+                  <td>1 000 000</td>
+                  <td>3d</td>
+                </tr>
+
+                <tr>
+                  <td>9</td>
+                  <td>15</td>
+                  <td>2 000 000</td>
+                  <td>4d</td>
+                </tr>
+
+                <tr class="table__gray">
+                  <td>10</td>
+                  <td>16</td>
+                  <td>5 000 000</td>
+                  <td>5d</td>
+                </tr>
+          </table>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Научная станция</h2>
+          <img src="../img/i_nauka.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Научная станция исследует артефакты. Вмещает максимально 4 артефакта, а одновременно исследуется только 1 артефакт. Можно утилизировать сразу все артефакты, загруженные на припаркованных транспортах (когда ячейки в науке заполнены). Может быть перемещен на 200+ водорода для каждого сектора. Научная станция это единственное строение, способное взаимодействовать с артефактами (исследовать). Поскольку для научной станции требуются артефакты, приобретенные с помощью сканера Красных Звезд, рекомендуется размещать эту станцию близко к сканеру Красных Звёзд, чтобы снизить затраты водорода при перемещении.
+          </p>
+
+          <table class="section__table table table--min">
+            <tr class="table__gray table__gray--dark">
+              <th>Уровень артефакта</th>
+              <th>Время изучения</th>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>2</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td>2</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>2,5</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>4</td>
+                <td>3</td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>6</td>
+                <td>3</td>
+              </tr>
+
+              <tr>
+                <td>7</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>8</td>
+                <td>3</td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td>3</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>10</td>
+                <td>3</td>
+              </tr>
+          </table>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Сканер секторов</h2>
+          <img src="../img/i_scaner.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Сканеры короткого диапазона способны открывать смежные новые сектора. После открытия этих секторов становится фактически бесполезен. Сканеры имеют радиус построения в два сектора от планеты, с которой вы его строите. Перемещение допустимо только в секторе создания за 500 водорода. Тщательно планируйте их размещение.
+          </p>
+
+          <div style="overflow-x: auto">
+
+            <table class="section__table table">
+              <tr class="table__gray table__gray--dark">
+                <th>Уровень</th>
+                <th>Стоимость</th>
+                <th>Стоимость сканирования</th>
+                <th>Время сканирования</th>
+                <th>Время строительства</th>
+              </tr>
+
+              <tr>
+                <td>1</td>
+                <td>2 500</td>
+                <td>2 500</td>
+                <td>4h</td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td>10 000</td>
+                <td>10 000</td>
+                <td>8h</td>
+                <td>4h</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>20 000</td>
+                <td>20 000</td>
+                <td>16h</td>
+                <td>12h</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>4</td>
+                <td>40 000</td>
+                <td>40 000</td>
+                <td>1d</td>
+                <td>24h</td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>80 000</td>
+                <td>80 000</td>
+                <td>1,5d</td>
+                <td>1d</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>6</td>
+                <td>150 000</td>
+                <td>150 000</td>
+                <td>3</td>
+                <td>1d</td>
+              </tr>
+
+              <tr>
+                <td>7</td>
+                <td>300 000</td>
+                <td>300 000</td>
+                <td>3,5d</td>
+                <td>1d</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>8</td>
+                <td>600 000</td>
+                <td>600 000</td>
+                <td>4d</td>
+                <td>1d</td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td>1 000 000</td>
+                <td>1 000 000</td>
+                <td>5d</td>
+                <td>1d</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>10</td>
+                <td>2 000 000</td>
+                <td>2 000 000</td>
+                <td>6d</td>
+                <td>1d</td>
+              </tr>
+
+              <tr>
+                <td>11</td>
+                <td>3 000 000</td>
+                <td>3 000 000</td>
+                <td>7d</td>
+                <td>1d</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>12+</td>
+                <td>4 000 000</td>
+                <td>4 000 000</td>
+                <td>7d</td>
+                <td>1d</td>
+              </tr>
+            </table>
+          </div>
+
+          <p class="section__text">Вариант расстановки сканеров по кругу, чтобы открыть все сектора  наименьшим их количеством:</p>
+          <img src="../img/map_scaner.png" width="300" height="300" alt="">
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Сканер красных звёзд</h2>
+          <img src="../img/i_redscaner.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Сканер Красных Звезд (КЗ) может обнаружить близлежащие звезды за определенное время (до 2 мин). КЗ содержат умирающие планеты с артефактами, а также охраняются силами Cererus. Другие игроки могут использовать свои Сканеры КЗ, чтобы получить доступ к тем же КЗ. Перенос сканера в другое место обойдется за 1000 водорода для каждого сектора.
+          Вступив в корпорацию будет доступна КЗ частная (только для вас и членов Вашей корпорации) или общая на выбор.
+          </p>
+
+          <table class="section__table table table--min">
+            <tr class="table__gray table__gray--dark">
+              <th>Уровень</th>
+              <th>Стоимость</th>
+              <th>Время строительства</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>1 000</td>
+              <td>3s</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>2</td>
+              <td>2 000</td>
+              <td>30min</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>20 000</td>
+              <td>4h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>4</td>
+              <td>60 000</td>
+              <td>1d</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>120 000</td>
+              <td>2d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>6</td>
+              <td>250 000</td>
+              <td>3d</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>1 000 000</td>
+              <td>4d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>8</td>
+              <td>2 000 000</td>
+              <td>5d</td>
+            </tr>
+
+            <tr>
+              <td>9</td>
+              <td>4 000 000</td>
+              <td>6d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>10</td>
+              <td>8 000 000</td>
+              <td>7d</td>
+            </tr>
+          </table>
+
+          <p class="section__text">Информацию по получению влияния и требований к прохождению Красных Звезд см. раздел <a href="star.html">Звёзды</a>.</p>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Станция дипломатии</h2>
+          <img src="../img/i_diplom.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Станция дипломатии может создать двухсторонние прыжковые ворота между двумя игроками. После подключения оба игрока могут отправлять корабли друг другу. Может быть перемещено в другое место за 2000 водорода для каждого сектора.
+          Требование для постройки - минимальный уровень планеты - 7.
+          После постройки доступен поиск с кем можно установить эти отношения.
+          </p>
+
+          <table class="section__table table table--min">
+            <tr class="table__gray table__gray--dark">
+              <th>Номер</th>
+              <th>Стоимость</th>
+              <th>Время строительства</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>25 000</td>
+              <td>8h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>2</td>
+              <td>500 000</td>
+              <td>5d</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>4 000 000</td>
+              <td>10d</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Варп-узел</h2>
+          <img src="../img/i_warp.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Варп-узел создаются парно, активация длится 24 часа.Стоимость активации зависит от длины участка между двумя хабами из расчета 1AU=0.9 ед. водорода. После включения линии между двух выбранных варп-узлов корабли могут перемещаться между ними мгновенно и без потребления водорода.
+          Является входом и выходом между секторами для погрузочного дрона.
+          Требование для постройки - минимальный уровень планеты - 12.
+          Каждый узел может быть перемещен за 4000 водорода для каждого сектора. Стоимость строительства указана за оба варп-узла.
+          </p>
+
+          <table class="section__table table table--min">
+            <tr class="table__gray table__gray--dark">
+              <th>Пара</th>
+              <th>Стоимость</th>
+              <th>Время строительства</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>50 000</td>
+              <td>12h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>2</td>
+              <td>100 000</td>
+              <td>1d</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>200 000</td>
+              <td>2d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>4</td>
+              <td>400 000</td>
+              <td>3d</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>800 000</td>
+              <td>4d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>6</td>
+              <td>1 500 000</td>
+              <td>5d</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>3 000 000</td>
+              <td>6d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>8</td>
+              <td>5 000 000</td>
+              <td>7d</td>
+            </tr>
+
+            <tr>
+              <td>9</td>
+              <td>6 000 000</td>
+              <td>8d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>10</td>
+              <td>7 000 000</td>
+              <td>9d</td>
+            </tr>
+
+            <tr>
+              <td>11</td>
+              <td>8 000 000</td>
+              <td>10d</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>12</td>
+              <td>8 000 000</td>
+              <td>10d</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Торговая станция</h2>
+          <img src="img/i_trade.png" width="100" height="100" alt="">
+
+          <p class="section__text">
+          Торговые станции производят грузы как планета, но они не поднимают ваш лимит на хранения кредитов и водорода. Требование - минимальный уровень планеты 13. Максимальное хранение 18 грузов, производительность 1,5 груза в час.
+          Перемещение в другое место обойдется 3000 водорода за каждый сектор.
+          </p>
+
+          <table class="section__table table">
+            <tr class="table__gray table__gray--dark">
+              <th>Уровень</th>
+              <th>Стоимость улучшения</th>
+              <th>Время улучшения</th>
+              <th>Доходность</th>
+            </tr>
+
+            <tr>
+              <td>1</td>
+              <td>60 000</td>
+              <td>1d</td>
+              <td>208/h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>2</td>
+              <td>120 000</td>
+              <td>2d</td>
+              <td>291/h</td>
+            </tr>
+
+            <tr>
+              <td>3</td>
+              <td>250 000</td>
+              <td>4d</td>
+              <td>408/h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>4</td>
+              <td>500 000</td>
+              <td>5d</td>
+              <td>571/h</td>
+            </tr>
+
+            <tr>
+              <td>5</td>
+              <td>1 000 000</td>
+              <td>6d</td>
+              <td>800/h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>6</td>
+              <td>2 000 000</td>
+              <td>7d</td>
+              <td>1120/h</td>
+            </tr>
+
+            <tr>
+              <td>7</td>
+              <td>3 000 000</td>
+              <td>8d</td>
+              <td>1568/h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>8</td>
+              <td>4 000 000</td>
+              <td>9d</td>
+              <td>2196/h</td>
+            </tr>
+
+            <tr>
+              <td>9</td>
+              <td>6 000 000</td>
+              <td>10d</td>
+              <td>3074/h</td>
+            </tr>
+
+            <tr class="table__gray">
+              <td>10</td>
+              <td>8 000 000</td>
+              <td>11d</td>
+              <td>4304/h</td>
+            </tr>
+          </table>
+        </section>
+
+        <section class="main__section section">
+
+          <h2 class="section__title">Сканер белых звёзд</h2>
+          <img src="../img/i-scanerBZ.png" width="80" height="80" alt="">
+
+          <p class="section__text">
+          Белые звезды (БЗ) являются звездной системой , где происходит борьба корпорации против корпорации. БЗ -это масштабные усилия, которые основаны на стратегии и командной работы членов корпорации. Каждый участник может внести свой вклад в борьбу за реликвии, предоставив до двух  кораблей для действий в БЗ, один из которых боевой, а другой или транспортный, или добывающий.
+          Время действий в БЗ значительно замедлены.  Маршруты, которые обычно занимают 30 секунд, могут занять до 5 часов. Замедление времени позволяет корпорациям планировать и адаптировать свою стратегию к изменяющемуся полю боя.
+          </p>
+        </section>
+      </main>
+
+      <footer class="build-footer">
+        <p class="build-footer__text">Стоимость постройки – 25000 кредитов.</p>
+        <p class="build-footer__text">Время постройки - мгновенно.</p>
+        <p class="build-footer__text">Можно перемещать в другое место за 3000 водорода.</p>
+        <p class="build-footer__text">Подробнее информацию о БЗ можно прочитать в разделе  <a href="star.html">Звёзды</a>.</p>
+      </footer>
+    </div>
+  </body>
+</html>
