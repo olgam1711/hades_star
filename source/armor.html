@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Вооружение</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.min.css">
+    <link rel="shortcut icon" href="favicon.ico">
+    <meta content="ValeraVvV" name="author">
+  </head>
+
+  <body>
+    <div class="container">
+
+      <header class="extra-header">
+
+        <img class="extra-header__img" src="img/i_Battleship.jpg" width="470" height="150" alt="">
+
+        <a href="../index.html"><p>На главную</p></a>
+      </header>
+
+      <main class="main">
+        <h1 class="main__title">Вооружение</h1>
+
+        <p class="main__text">
+          Модули вооружения устанавливаются исключительно на линкоры. Разделяются на атакующие одиночные цели или массовые цели. Чем выше уровень модуля вооружения, тем больше водорода требуется линкору на перемещение. Вначале игроку предлагается первичная батарея, которую следует сменить при первой возможности. Имеется следующий выбор вооружения:
+        </p>
+
+        <ul class="main__content">
+          <li>
+            <a class="main__text main__text--a" href="#battery">Батарея</a>
+          </li>
+
+          <li>
+            <a class="main__text main__text--a" href="#lazer">Лазер</a>
+          </li>
+
+          <li>
+            <a class="main__text main__text--a" href="#battery-2">Залповая батарея</a>
+          </li>
+
+          <li>
+            <a class="main__text main__text--a" href="#lazer-2">Двойной лазер</a>
+          </li>
+
+          <li>
+            <a class="main__text main__text--a" href="#shelling">Артобстрел</a>
+          </li>
+
+          <li>
+            <a class="main__text main__text--a" href="#launcher">Пусковая установка</a>
+          </li>
+        </ul>
+
+        <section class="main__section section" id="battery">
+          <div class="section__div">
+            <img src="img/i_weapon_Battery.png" width="60" height="50" alt="">
+            <h2 class="section__title">Батарея</h2>
+          </div>
+
+          <p class="section__text">
+            Наносит урон одной ближайшей цели. Чертежи доступны на 1+ уровне Красной Звезды.
+          </p>
+
+          <table class="section__table"></table>
+        </section>
+
+        <section class="main__section section" id="lazer">
+          <div class="section__div">
+            <img src="img/i_weapon_laser.png" width="60" height="50" alt="">
+            <h2 class="section__title">Лазер</h2>
+          </div>
+
+          <p class="section__text">
+            Оружие, которое наносит урона одиночной цели и с течением времени этот урон возрастает. При смене цели или прерывания атаки, урон сбрасывается на начальное значение. Чертежи доступны на 2+ уровне Красной Звезды.
+          </p>
+
+          <table class="section__table"></table>
+        </section>
+
+        <section class="main__section section" id="battery-2">
+          <div class="section__div">
+            <img src="img/i_weapon_mass.png" width="60" height="50" alt="">
+            <h2 class="section__title">Залповая батарея</h2>
+          </div>
+
+          <p class="section__text">
+          Одновременно ведет огонь по нескольким целям в радиусе действия. Чертежи доступны при исследовании артефакта 3-го уровня Красной Звезды.
+          </p>
+
+          <table class="section__table"></table>
+        </section>
+
+        <section class="main__section section" id="lazer-2">
+          <div class="section__div">
+            <img src="img/i_weapon_dlaser.png" width="60" height="50" alt="">
+            <h2 class="section__title">Двойной лазер</h2>
+          </div>
+
+          <p class="section__text">
+          Лазер против двух врагов в радиусе действия. Урон увеличивается с течением времени только, если атакуются одновременно две цели. Если огонь ведется по одиночной цели, то урон минимальный. Чертежи доступны с артефакта 4+ уровня Красной Звезды.
+          </p>
+
+          <table class="section__table"></table>
+        </section>
+
+        <section class="main__section section" id="shelling">
+          <div class="section__div">
+            <img src="img/i_weapon_Barage.png" width="60" height="50" alt="">
+            <h2 class="section__title">Артобстрел</h2>
+          </div>
+
+          <p class="section__text">
+          Батарея, наносящая дополнительный урон своей единственной цели, когда в секторе больше вражеских кораблей. Т.е. базовый минимальный урон и каждый противник в секторе прибавляет урона.  Чертежи доступны с артефакта Красной Звезды 5+ уровня.
+          </p>
+
+          <table class="section__table"></table>
+        </section>
+
+        <section class="main__section section" id="launcher">
+          <div class="section__div">
+            <img src="img/i_weapon_durt.png" width="60" height="50" alt="">
+            <h2 class="section__title">Пусковая установка</h2>
+          </div>
+
+          <p class="section__text">
+          Запускает реактивные снаряды в выбранный корабль противника с определенной периодичностью.
+          Корабль противника может нейтрализовать снаряд, выстрелив по нему.
+          Долетев до места назначения, снаряд наносит прямой урон от оружия только выбранному кораблю и только при условии, что выбранный корабль еще находится в зоне поражения. Это оружие будет стрелять только по вражеским кораблям. Оно не может поражать ракеты и станции «Цербера».
+          Чертежи доступны с артефакта 9+ уровня.
+          </p>
+
+          <table class="section__table"></table>
+        </section>
+      </main>
+    </div>
+  </body>
