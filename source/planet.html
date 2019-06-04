@@ -55,22 +55,836 @@
         <section class="main__section section">
           <p class="section__text">Ниже представлена последовательность и характеристики открываемых планет в секторах.</p>
 
-          <table class="section__table">
+          <div style="overflow-x: auto;">
+            <table class="section__table table">
+              <tr class="table__gray table__gray--dark">
+                <th>Поряд. номер сканера</th>
+                <th>сектор</th>
+                <th>Стоимость</th>
+                <th>открыв. в случ. из  трех  секторов № Планеты</th>
+                <th>Тип планеты</th>
+                <th>База Cerberus</th>
+                <th>MAX ур. планеты</th>
+                <th>MAX грузов на планете+спутниках</th>
+                <th>Произ.-ть грузов в час.</th>
+                <th>Модификатор дохода от грузов - % (Y)</th>
+              </tr>
 
-          </table>
+              <tr>
+                <td>Start</td>
+                <td>Start</td>
+                <td rowspan="2">-</td>
+                <td>1</td>
+                <td>desert_lv1</td>
+                <td></td>
+                <td>15</td>
+                <td>10+10+10</td>
+                <td>0,8+0,8+0,8</td>
+                <td>70%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>Start</td>
+                <td>Start</td>
+                <td>2</td>
+                <td>fire_lv1</td>
+                <td></td>
+                <td>15</td>
+                <td>15+15</td>
+                <td>1,2+1,2</td>
+                <td>90%</td>
+              </tr>
+
+              <tr>
+                <td rowspan="5">1</td>
+                <td>1</td>
+                <td rowspan="5">2 500</td>
+                <td>3</td>
+                <td>water_lv1</td>
+                <td></td>
+                <td>15</td>
+                <td>18+18</td>
+                <td>1,4+1,4</td>
+                <td>95%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>4</td>
+                <td>4</td>
+                <td>terran_lv1</td>
+                <td></td>
+                <td>15</td>
+                <td>18</td>
+                <td>1,5</td>
+                <td>115</td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td rowspan="3">2</td>
+                <td>1</td>
+                <td rowspan="3">10 000</td>
+                <td>5</td>
+                <td>gas_lv1</td>
+                <td></td>
+                <td>20</td>
+                <td>22</td>
+                <td>1,8</td>
+                <td>120%</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td>level 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td rowspan="3">3</td>
+                <td>1</td>
+                <td rowspan="3">20 000</td>
+                <td>6</td>
+                <td>terran_lv2</td>
+                <td></td>
+                <td>30</td>
+                <td>27</td>
+                <td>2,2</td>
+                <td>120%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td>level 1</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td rowspan="3">4</td>
+                <td>1</td>
+                <td rowspan="3">40 000</td>
+                <td>7</td>
+                <td>fire_lv2</td>
+                <td></td>
+                <td>30</td>
+                <td>24</td>
+                <td>2</td>
+                <td>95%</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td rowspan="3">5</td>
+                <td>1</td>
+                <td rowspan="3">80 000</td>
+                <td>8</td>
+                <td>water_lv2</td>
+                <td></td>
+                <td>30</td>
+                <td>24</td>
+                <td>2</td>
+                <td>100%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td>9</td>
+                <td>gas_lv2</td>
+                <td>level 2</td>
+                <td>40</td>
+                <td>40</td>
+                <td>3,2</td>
+                <td>125%</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td>level 2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td rowspan="3">6</td>
+                <td>1</td>
+                <td rowspan="3">150 000</td>
+                <td>10</td>
+                <td>desert_lv2</td>
+                <td></td>
+                <td>30</td>
+                <td>24</td>
+                <td>2</td>
+                <td>75%</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td>level 3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td rowspan="3">7</td>
+                <td>1</td>
+                <td rowspan="3">300 000</td>
+                <td>11</td>
+                <td>fire_lv3</td>
+                <td></td>
+                <td>40</td>
+                <td>36</td>
+                <td>3</td>
+                <td>100%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td>level 3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td rowspan="3">8</td>
+                <td>1</td>
+                <td rowspan="3">600 000</td>
+                <td>12</td>
+                <td>desert_lv3</td>
+                <td></td>
+                <td>40</td>
+                <td>36</td>
+                <td>3</td>
+                <td>85%</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td>13</td>
+                <td>water_lv3</td>
+                <td></td>
+                <td>40</td>
+                <td>38</td>
+                <td>3,2</td>
+                <td>105%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td>level 3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td rowspan="3">9</td>
+                <td>1</td>
+                <td rowspan="3">1 000 000</td>
+                <td>14</td>
+                <td>terran_lv3</td>
+                <td>level 3</td>
+                <td>40</td>
+                <td>35</td>
+                <td>3</td>
+                <td>125%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td>level 3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td rowspan="3">10</td>
+                <td>1</td>
+                <td rowspan="3">2 000 000</td>
+                <td>15</td>
+                <td>ice_1</td>
+                <td>level 3</td>
+                <td>40</td>
+                <td>40</td>
+                <td>3,2</td>
+                <td>140%</td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td rowspan="3">11</td>
+                <td>1</td>
+                <td rowspan="3">3 000 000</td>
+                <td>16</td>
+                <td>ice_2</td>
+                <td>level 3</td>
+                <td>40</td>
+                <td>50</td>
+                <td>4,2</td>
+                <td>140%</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+            </table>
+          </div>
         </section>
 
         <section class="main__section section">
           <h2 class="main__list--planet" id="level">Улучшение уровней планет:</h2>
 
-          <table class="section__table">
+          <div style="overflow-x: auto;">
+            <table class="section__table table">
+              <tr class="table__gray table__gray--dark">
+                <td>Уровень</td>
+                <td>Стоимость улучшения</td>
+                <td>Время улучшения</td>
+                <td>+ размер  хранилища кредитов</td>
+                <td>+ размер хранилища водорода</td>
+                <td>Доход от грузов (базовый) в сутки (X)</td>
+              </tr>
 
-          </table>
+              <tr>
+                <td>1</td>
+                <td><a href="#cost">стоимость колонизации</a></td>
+                <td>мгновенно</td>
+                <td>1000</td>
+                <td>200</td>
+                <td>3000</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>2</td>
+                <td>50</td>
+                <td>10s</td>
+                <td>1400</td>
+                <td>260</td>
+                <td>3240</td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+                <td>200</td>
+                <td>30s</td>
+                <td>1800</td>
+                <td>340</td>
+                <td>3499</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>4</td>
+                <td>500</td>
+                <td>2m</td>
+                <td>3000</td>
+                <td>450</td>
+                <td>3778</td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+                <td>1000</td>
+                <td>5m</td>
+                <td>4000</td>
+                <td>570</td>
+                <td>4080</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>6</td>
+                <td>2000</td>
+                <td>30m</td>
+                <td>5000</td>
+                <td>750</td>
+                <td>4406</td>
+              </tr>
+
+              <tr>
+                <td>7</td>
+                <td>4000</td>
+                <td>1h</td>
+                <td>6000</td>
+                <td>960</td>
+                <td>4758</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>8</td>
+                <td>8000</td>
+                <td>4h</td>
+                <td>7500</td>
+                <td>1250</td>
+                <td>5138</td>
+              </tr>
+
+              <tr>
+                <td>9</td>
+                <td>10000</td>
+                <td>8h</td>
+                <td>10000</td>
+                <td>1600</td>
+                <td>5549</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>10</td>
+                <td>20000</td>
+                <td>13.5h</td>
+                <td>13000</td>
+                <td>2100</td>
+                <td>5992</td>
+              </tr>
+
+              <tr>
+                <td>11</td>
+                <td>30000</td>
+                <td>1d</td>
+                <td>16000</td>
+                <td>2750</td>
+                <td>6471</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>12</td>
+                <td>40000</td>
+                <td>1.5d</td>
+                <td>20000</td>
+                <td>3600</td>
+                <td>6988</td>
+              </tr>
+
+              <tr>
+                <td>13</td>
+                <td>50000</td>
+                <td>2d</td>
+                <td>24000</td>
+                <td>5000</td>
+                <td>7547</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>14</td>
+                <td>75000</td>
+                <td>2.5d</td>
+                <td>28000</td>
+                <td>7000</td>
+                <td>8150</td>
+              </tr>
+
+              <tr>
+                <td>15</td>
+                <td>100000</td>
+                <td>3d</td>
+                <td>35000</td>
+                <td>9000</td>
+                <td>8802</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>16</td>
+                <td>125000</td>
+                <td>3.5d</td>
+                <td>45000</td>
+                <td>11000</td>
+                <td>9506</td>
+              </tr>
+
+              <tr>
+                <td>17</td>
+                <td>150000</td>
+                <td>4d</td>
+                <td>65000</td>
+                <td>13000</td>
+                <td>10000</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>18</td>
+                <td>175000</td>
+                <td>4.5d</td>
+                <td>90000</td>
+                <td>15000</td>
+                <td>10700</td>
+              </tr>
+
+              <tr>
+                <td>19</td>
+                <td>200000</td>
+                <td>5d</td>
+                <td>130000</td>
+                <td>17000</td>
+                <td>11449</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>20</td>
+                <td>250000</td>
+                <td>5.5d</td>
+                <td>170000</td>
+                <td>19000</td>
+                <td>12250</td>
+              </tr>
+
+              <tr>
+                <td>21</td>
+                <td>300000</td>
+                <td>6d</td>
+                <td>210000</td>
+                <td>20000</td>
+                <td>13107</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>22</td>
+                <td>400000</td>
+                <td>6.5d</td>
+                <td>250000</td>
+                <td>21000</td>
+                <td>14024</td>
+              </tr>
+
+              <tr>
+                <td>23</td>
+                <td>500000</td>
+                <td>7d</td>
+                <td>290000</td>
+                <td>22000</td>
+                <td>15005</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>24</td>
+                <td>600000</td>
+                <td>7.5d</td>
+                <td>330000</td>
+                <td>23000</td>
+                <td>16055</td>
+              </tr>
+
+              <tr>
+                <td>25</td>
+                <td>800000</td>
+                <td>8d</td>
+                <td>370000</td>
+                <td>24000</td>
+                <td>17178</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>26</td>
+                <td>1 000 000</td>
+                <td>8.5d</td>
+                <td>410000</td>
+                <td>25000</td>
+                <td>18380</td>
+              </tr>
+
+              <tr>
+                <td>27</td>
+                <td>1 250 000</td>
+                <td>9d</td>
+                <td>450000</td>
+                <td>26000</td>
+                <td>19666</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>28</td>
+                <td>1 500 000</td>
+                <td>9.5d</td>
+                <td>490000</td>
+                <td>27000</td>
+                <td>21042</td>
+              </tr>
+
+              <tr>
+                <td>29</td>
+                <td>1 750 000</td>
+                <td>10d</td>
+                <td>530000</td>
+                <td>28000</td>
+                <td>22514</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>30</td>
+                <td>2 000 000</td>
+                <td>10.5d</td>
+                <td>570000</td>
+                <td>29000</td>
+                <td>24089</td>
+              </tr>
+
+              <tr>
+                <td>31</td>
+                <td>2 250 000</td>
+                <td>11d</td>
+                <td>610000</td>
+                <td>30000</td>
+                <td>25775</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>32</td>
+                <td>2 500 000</td>
+                <td>11.5d</td>
+                <td>650000</td>
+                <td>31000</td>
+                <td>27579</td>
+              </tr>
+
+              <tr>
+                <td>33</td>
+                <td>2 750 000</td>
+                <td>12d</td>
+                <td>690000</td>
+                <td>32000</td>
+                <td>29509</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>34</td>
+                <td>3 000 000</td>
+                <td>12.5d</td>
+                <td>730000</td>
+                <td>33000</td>
+                <td>31574</td>
+              </tr>
+
+              <tr>
+                <td>35</td>
+                <td>3 500 000</td>
+                <td>13d</td>
+                <td>770000</td>
+                <td>34000</td>
+                <td>33784</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>36</td>
+                <td>4 000 000</td>
+                <td>13.5d</td>
+                <td>810000</td>
+                <td>35000</td>
+                <td>36148</td>
+              </tr>
+
+              <tr>
+                <td>37</td>
+                <td>4 500 000</td>
+                <td>14d</td>
+                <td>850000</td>
+                <td>36000</td>
+                <td>38678</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>38</td>
+                <td>5 000 000</td>
+                <td>14d</td>
+                <td>850000</td>
+                <td>37000</td>
+                <td>41385</td>
+              </tr>
+
+              <tr>
+                <td>39</td>
+                <td>5 500 000</td>
+                <td>14d</td>
+                <td>850000</td>
+                <td>38000</td>
+                <td>44281</td>
+              </tr>
+
+              <tr class="table__gray">
+                <td>40</td>
+                <td>6 000 000</td>
+                <td>14d</td>
+                <td>850000</td>
+                <td>39000</td>
+                <td>47380</td>
+              </tr>
+            </table>
+          </div>
         </section>
 
         <p class="main__text">
-        Для расчета дохода от доставки грузов конкретной планеты достаточно умножить базовый доход уровня (X) на модификатор типа планеты (Y) (колонка модификатор дохода от грузов из таблицы открытия планет).  Для дохода в час полученное значение разделить на  24.
-        Для автоматического расчета дохода от грузов и размера лимита хранилища Вашей системы воспользуйтесь калькулятором расчетов, выбрав его в основном меню приложения.
+          Для расчета дохода от доставки грузов конкретной планеты достаточно умножить базовый доход уровня (X) на модификатор типа планеты (Y) (колонка модификатор дохода от грузов из таблицы открытия планет).  Для дохода в час полученное значение разделить на  24.
+          Для автоматического расчета дохода от грузов и размера лимита хранилища Вашей системы воспользуйтесь калькулятором расчетов, выбрав его в основном меню приложения.
         </p>
       </main>
     </div>
