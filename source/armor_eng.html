@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Вооружение</title>
+    <title>Weapon</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" href="../css/normalize.css">
@@ -22,59 +22,60 @@
       </header>
 
       <main class="main">
-        <h1 class="main__title">Вооружение</h1>
+        <h1 class="main__title">Weapon</h1>
 
         <p class="main__text">
-          Модули вооружения устанавливаются исключительно на линкоры. Разделяются на атакующие одиночные цели или массовые цели. Чем выше уровень модуля вооружения, тем больше водорода требуется линкору на перемещение. Вначале игроку предлагается первичная батарея, которую следует сменить при первой возможности. Имеется следующий выбор вооружения:
+          The weapons modules are installed exclusively on battleships. Divided into attacking a single target or mass target. The higher the level of the weapon module, the more hydrogen is required to move the battleship. Initially, the player is offered a primary battery, which should be changed at the earliest opportunity.
+          There is the following choice of weapons:
         </p>
 
         <ul class="main__content">
           <li>
-            <a class="main__text main__text--a" href="#battery">Батарея</a>
+            <a class="main__text main__text--a" href="#battery">Battery</a>
           </li>
 
           <li>
-            <a class="main__text main__text--a" href="#lazer">Лазер</a>
+            <a class="main__text main__text--a" href="#lazer">Laser</a>
           </li>
 
           <li>
-            <a class="main__text main__text--a" href="#battery-2">Залповая батарея</a>
+            <a class="main__text main__text--a" href="#battery-2">Mass Battery</a>
           </li>
 
           <li>
-            <a class="main__text main__text--a" href="#lazer-2">Двойной лазер</a>
+            <a class="main__text main__text--a" href="#lazer-2">Double laser</a>
           </li>
 
           <li>
-            <a class="main__text main__text--a" href="#shelling">Артобстрел</a>
+            <a class="main__text main__text--a" href="#shelling">Barrage</a>
           </li>
 
           <li>
-            <a class="main__text main__text--a" href="#launcher">Пусковая установка</a>
+            <a class="main__text main__text--a" href="#launcher">Dart launcher</a>
           </li>
         </ul>
 
         <section class="main__section section" id="battery">
           <div class="section__div">
             <img src="img/i_weapon_Battery.png" width="60" height="50" alt="">
-            <h2 class="section__title">Батарея</h2>
+            <h2 class="section__title">Battery</h2>
           </div>
 
           <p class="section__text">
-            Наносит урон одной ближайшей цели. Чертежи доступны на 1+ уровне Красной Звезды.
+            Does damage to a single target at a time. Blueprints are obtained by researching level 1+
           </p>
 
           <div style="overflow-x: auto;">
             <table class="section__table table">
               <tr class="table__gray table__gray--dark">
-                <th>Ур.</th>
-                <th>Требуется чертежей</th>
-                <th>Ст-ть открытия</th>
-                <th>Время изучения</th>
-                <th>Урон (КЗ в сек/БЗ в час)</th>
-                <th>Дальность атаки, AU</th>
-                <th>Расход водорода</th>
-                <th>Стоим. установки</th>
+                <th>Level</th>
+                <th>Blueprints Required</th>
+                <th>Unlock Price</th>
+                <th>Research Time</th>
+                <th>Damage (RS in sec/WS in h.)</th>
+                <th>Attack Range, AU</th>
+                <th>Additional Hydrogen Use</th>
+                <th>Install Price</th>
               </tr>
 
               <tr>
@@ -184,26 +185,26 @@
         <section class="main__section section" id="lazer">
           <div class="section__div">
             <img src="img/i_weapon_laser.png" width="60" height="50" alt="">
-            <h2 class="section__title">Лазер</h2>
+            <h2 class="section__title">Laser</h2>
           </div>
 
           <p class="section__text">
-            Оружие, которое наносит урона одиночной цели и с течением времени этот урон возрастает. При смене цели или прерывания атаки, урон сбрасывается на начальное значение. Чертежи доступны на 2+ уровне Красной Звезды.
+            Weapon which causes more loss on one purpose eventually. When changing the purpose the loss is dropped on starting value. Blueprints are available on 2+ the RS level.
           </p>
 
           <div style="overflow-x: auto;">
             <table class="section__table table">
               <tr class="table__gray table__gray--dark">
-                <th>Ур.</th>
-                <th>Требуется чертежей</th>
-                <th>Ст-ть открытия</th>
-                <th>Время открытия</th>
-                <th>Урон миним. (КЗ в сек/БЗ в час)</th>
-                <th>Урон макс (КЗ в сек/БЗ в час)</th>
-                <th>Время для максим. урона (КЗ/БЗ/CЗ)</th>
-                <th>Дальность атаки</th>
-                <th>Расход водорода</th>
-                <th>Ст-ть устан.</th>
+                <th>Level</th>
+                <th>Blueprints Required</th>
+                <th>Unlock Price</th>
+                <th>Research Time</th>
+                <th>Min Damage (RS in sec/WS in h.)</th>
+                <th>Maximum Damage (RS in sec/WS in h.)</th>
+                <th>Time to Maximum Damage (RS/WS/BS)</th>
+                <th>Attack Range</th>
+                <th>+Hydrogen / 100 AU</th>
+                <th>Install Price</th>
               </tr>
 
               <tr>
@@ -324,25 +325,25 @@
         <section class="main__section section" id="battery-2">
           <div class="section__div">
             <img src="img/i_weapon_mass.png" width="60" height="50" alt="">
-            <h2 class="section__title">Залповая батарея</h2>
+            <h2 class="section__title">Mass Battery</h2>
           </div>
 
           <p class="section__text">
-            Одновременно ведет огонь по нескольким целям в радиусе действия. Чертежи доступны при исследовании артефакта 3-го уровня Красной Звезды.
+            At the same time about several purposes in range fire. Blueprints are available in case of a research of an artifact of the 3rd RS level.
           </p>
 
           <div style="overflow-x: auto;">
             <table class="section__table table">
               <tr class="table__gray table__gray--dark">
-                <th>Ур.</th>
-                <th>Требуется чертежей</th>
-                <th>Ст-ть открытия</th>
-                <th>Время открытия</th>
-                <th>Урон (КЗ в сек/БЗ в час)</th>
-                <th>Дальность атаки</th>
-                <th>Max целей</th>
-                <th>Расход водорода / 100AU</th>
-                <th>Ст-ть устан.</th>
+                <th>Level</th>
+                <th>Blueprints Required</th>
+                <th>Unlock Price</th>
+                <th>Research Time</th>
+                <th>Damage (RS in sec/WS in h.)</th>
+                <th>Attack Range</th>
+                <th>Max Targets</th>
+                <th>+Hydrogen / 100 AU</th>
+                <th>Install Price</th>
               </tr>
 
               <tr>
@@ -462,26 +463,26 @@
         <section class="main__section section" id="lazer-2">
           <div class="section__div">
             <img src="img/i_weapon_dlaser.png" width="60" height="50" alt="">
-            <h2 class="section__title">Двойной лазер</h2>
+            <h2 class="section__title">Double laser</h2>
           </div>
 
           <p class="section__text">
-            Лазер против двух врагов в радиусе действия. Урон увеличивается с течением времени только, если атакуются одновременно две цели. Если огонь ведется по одиночной цели, то урон минимальный. Чертежи доступны с артефакта 4+ уровня Красной Звезды.
+            The laser against two enemies in range. The loss increases eventually only if both rays are active. Blueprints are available from RS4+ artifact
           </p>
 
           <div style="overflow-x: auto;">
             <table class="section__table table">
               <tr class="table__gray table__gray--dark">
-                <th>Ур.</th>
-                <th>Требуется чертежей</th>
-                <th>Ст-ть открытия</th>
-                <th>Время открытия</th>
-                <th>Урон в секунду миним.</th>
-                <th>Урон в секунду макс</th>
-                <th>Время для максим. урона (КЗ/БЗ/CЗ)</th>
-                <th>Дальность атаки</th>
-                <th>Расход водорода / 100AU</th>
-                <th>Ст-ть устан.</th>
+                <th>Level</th>
+                <th>Blueprints Required</th>
+                <th>Unlock Price</th>
+                <th>Research Time</th>
+                <th>MIN Damage (RS in sec/WS in h.)</th>
+                <th>MAX Damage (RS in sec/WS in h.)</th>
+                <th>Time to Max Damage (RS/WS/BS)</th>
+                <th>Attack Range</th>
+                <th>+Hydrogen / 100 AU</th>
+                <th>Install Price</th>
               </tr>
 
               <tr>
@@ -602,25 +603,25 @@
         <section class="main__section section" id="shelling">
           <div class="section__div">
             <img src="img/i_weapon_Barage.png" width="60" height="50" alt="">
-            <h2 class="section__title">Артобстрел</h2>
+            <h2 class="section__title">Barrage</h2>
           </div>
 
           <p class="section__text">
-            Батарея, наносящая дополнительный урон своей единственной цели, когда в секторе больше вражеских кораблей. Т.е. базовый минимальный урон и каждый противник в секторе прибавляет урона.  Чертежи доступны с артефакта Красной Звезды 5+ уровня.
+             The battery causing an additional loss to the single purpose when in a sector there are more hostile ships. Blueprints are available from RS5+ artifact.
           </p>
 
           <div style="overflow-x: auto;">
             <table class="section__table table">
               <tr class="table__gray table__gray--dark">
-                <th>Ур.</th>
-                <th>Требуется чертежей</th>
-                <th>Ст-ть открытия</th>
-                <th>Время открытия</th>
-                <th>Миним. урон (КЗ в сек / БЗ в час)</th>
-                <th>Дополнит. урон / за противника (КЗ в сек / БЗ в час)</th>
-                <th>Дальность атаки</th>
-                <th>Расход водорода / 100AU</th>
-                <th>Ст-ть устан.</th>
+                <th>Level</th>
+                <th>Blueprints Required</th>
+                <th>Unlock Price</th>
+                <th>Research Time</th>
+                <th>Damage per Second</th>
+                <th>Additional Damage / enemy</th>
+                <th>Attack Range</th>
+                <th>+Hydrogen / 100 AU</th>
+                <th>Install Price</th>
               </tr>
 
               <tr>
@@ -740,31 +741,32 @@
         <section class="main__section section" id="launcher">
           <div class="section__div">
             <img src="img/i_weapon_durt.png" width="60" height="50" alt="">
-            <h2 class="section__title">Пусковая установка</h2>
+            <h2 class="section__title">Dart launcher</h2>
           </div>
 
           <p class="section__text">
-            Запускает реактивные снаряды в выбранный корабль противника с определенной периодичностью.
-            Корабль противника может нейтрализовать снаряд, выстрелив по нему.
-            Долетев до места назначения, снаряд наносит прямой урон от оружия только выбранному кораблю и только при условии, что выбранный корабль еще находится в зоне поражения. Это оружие будет стрелять только по вражеским кораблям. Оно не может поражать ракеты и станции «Цербера».
-            Чертежи доступны с артефакта 9+ уровня.
+            Launches a DART missile against the targeted enemy ship at regular intervals.
+            The missile can be neutralized by any enemy ship using normal targeting rules.
+            When the missile reaches its destination it will apply direct weapon damage to the target ship only, and only if the target ship is still within the impact area.
+            This weapon will only fire on enemy ships. Rockets and Cerberus stations are ignored.
+            Blueprints are available from RS9+ artifact.
           </p>
 
           <div style="overflow-x: auto;">
             <table class="section__table table">
               <tr class="table__gray table__gray--dark">
-                <th>Ур.</th>
-                <th>Требуется чертежей</th>
-                <th>Ст-ть открытия</th>
-                <th>Время открытия</th>
-                <th>Радиус взрыва</th>
-                <th>Скорость полета (КЗ/БЗ)</th>
-                <th>Прочность (HP)</th>
-                <th>Урон</th>
-                <th>Интервал атаки,s</th>
-                <th>Даль. атаки (AU)</th>
-                <th>Расход водорода / 100AU</th>
-                <th>Ст-ть устан.</th>
+                <th>Level</th>
+                <th>Blueprints Required</th>
+                <th>Unlock Price</th>
+                <th>Research Time</th>
+                <th>Damage Range</th>
+                <th>Speed</th>
+                <th>HP</th>
+                <th>Damage</th>
+                <th>Activation Delay,s</th>
+                <th>Effect Radius (AU)</th>
+                <th>+Hydrogen / 100 AU</th>
+                <th>Install Price</th>
               </tr>
 
               <tr>
