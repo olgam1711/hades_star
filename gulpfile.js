@@ -80,7 +80,7 @@ gulp.task("copy", function () {
     .pipe(gulp.dest("dist"));
 });
 
-gulp.task("dist", gulp.series(
+gulp.task("build", gulp.series(
   "clean",
   "copy",
   "css",
@@ -107,4 +107,4 @@ gulp.task("refresh", function (done) {
   done();
 });
 
-gulp.task("start", gulp.series("dist", "server"));
+gulp.task("start", gulp.series("build", "server"));
